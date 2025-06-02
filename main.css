@@ -171,3 +171,66 @@ footer {
   text-decoration: none;
   font-size: 16px;
 }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15% 30% 20%;
+    margin-top: 20px;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+
+  .service {
+    margin-bottom: 30px;
+  }
+
+  .gallery {
+    justify-content: center;
+  }
+
+  .gallery-item {
+    width: 45%;
+    max-width: 180px;
+  }
+
+  .gallery-title {
+    font-size: 20px;
+  }
+
+  footer .footer-logo img {
+    height: 60px;
+  }
+}
